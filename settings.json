@@ -1,0 +1,67 @@
+{
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.productIconTheme": "el-vsc-v1-icons",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "breadcrumbs.enabled": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "html"
+  },
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.padding.top": 10,
+  "window.zoomLevel": 1,
+  "terminal.integrated.fontFamily": "'Monospace Radon', monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.scrollBeyondLastLine": true,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [],
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "all",
+  "editor.matchBrackets": "always",
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestionsDelay": 50,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  "editor.showFoldingControls": "mouseover",
+  // Single quotes for autoimport
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  // Excluded files
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/dist": false
+  },
+  // Autosave settings
+  "editor.formatOnSave": true,
+  // turn it off for JS
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "workbench.colorTheme": "One Dark Space Gray",
+  // Explore these properties later to see if they're useful
+  // "files.insertFinalNewline": true,
+  // "editor.bracketPairColorization.enabled": true,
+  // "editor.guides.bracketPairs": "active",
+  // "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+}
